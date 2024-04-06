@@ -11,3 +11,5 @@ export const attendees = Array.from({ length: 213 }).map(() => {
     checkedInAt: faker.date.recent({ days: 7 })
   };
 });
+
+//O arquivo não está mais vinculado a aplicação, visto que esteja feita a integração com a API.
